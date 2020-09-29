@@ -21,8 +21,7 @@ abstract class BaseFragment<VM : ViewModel, B : ViewBinding, R : BaseRepository>
     protected lateinit var binding: B
     protected lateinit var viewModel: VM
     protected val remoteDataSource = RemoteDataSource()
-
-
+    
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
